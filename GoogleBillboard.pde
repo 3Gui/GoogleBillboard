@@ -25,7 +25,7 @@ void setup(){
   
   
   
-  for(int i = 0; (fifth49Found == false) && i<e.length()-10 ; i++){
+  for(int i = 0; (fifth49Found == false) && i<e.length()-9 ; i++){
     if(i==0){
     ePart = Math.pow(10,9)*(Double.parseDouble(e.substring(i,i+11)));
   }else if(i==1){
